@@ -1,0 +1,142 @@
+<!DOCTYPE<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" tybe="text/css" href="estilo.css">
+		<link rel="stylesheet" tybe="text/css" href="Normalize.css">
+		<link rel="icon" tybe="image/jbg" href="chester_lee.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet"> 
+
+		<title>Datos</title>
+	</head>
+	<body>
+<!--	Definición de la Página WEB				-->				
+		<div class="pagina__web">
+<!--
+		Definición del encabezado de la pagína web; esta sección es comun a todas las Páginas WEB del proyecto;
+		aqui se encuentran los enlaces a las demás paginas web.
+-->
+			<div class="pagina__web__elemento encabezado">
+				<div class="enlace__item">
+					<a href="web0.html" target="_blank">INICIO</a>
+				</div>
+				<div class="enlace__item">
+					<a href="web2.html" target="_blank">CONTACTO</a>
+				</div>
+			</div>
+<!--
+		En esta sección definí, el cuerpo de la página web, que cambia según la página en cuestión, para conservar cierto orden todas tienen el mismo tamaño, se diferencian en el contenido.
+-->	
+<!--	En esta sección defino las animaciones de está pagina en este caso 2 grupos, uno a izquierda y el otro a derecha con un patrón de cajas del mismo color que los enlaces	-->
+<!--	Patrón de diseño de animaciones "Izquierdo"	-->
+			<div class="pagina__web__elemento animation__datta__container1">
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+				<div class="animation__datta__elemento1"></div>
+			</div>
+			<div class="pagina__web__elemento animation__datta__container2">
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+				<div class="animation__datta__elemento2"></div>
+			</div>			
+<!--	Patrón de diseño de animaciones "Derecho"	-->
+			<div class="pagina__web__elemento cuerpo">
+<!--
+		aqui se encuentran definidos en diferentes cajas, la experiencia laboral del individuo, con separadores entre trabajos; hay un apartado para la formación del indivduo desde lo mas antiguo a lo mas reciente; un partado de idiomas; un apartado de habilidades(Skills) y un apartado de lenguajes de programación. Todos los apartados poseen una grilla para los elementos para organizarlos y 2 partes, una para el título de la misma y otro para el contenido.
+-->
+				<div class="cuerpo__data__elemento experiencia">
+<!--
+		Apartado de experiencia, la primera para el título de la misma y el segundo para el contenido en una lista ordenada; se han incluido 2 espaciados, en la lista ordenada.
+-->	
+					<h2 class="experiencia__item Exp__title">EXPERIENCIA LABORAL</h2>
+					<ol class="experiencia__item Exp__list">
+						<li><b>Analista–Programador, Servicios Técnicos IT, Bilbao</b></li>
+							<p>
+								Toma de requerimientos con el cliente<br>
+								Análisis de requerimientos y diseño de aplicaciones<br>
+								Desarrollo de aplicaciones utilizando Javascript, PHP, MySQL<br>
+								Soporte técnico a clientes<br>
+							</p>						
+						<div class="espaciado"></div>
+						<li><b>Programador Full Stack, Finanbest, Madrid</b></li>
+							<p>
+								Desarrollo Front End de aplicaciones con javaScript, PHP, MySQL, HTML5<br>
+								Realización de test de aplicaciones<br> 
+								Solución de incidencias<br>
+							</p>
+						<div class="espaciado"></div>
+						<li><b>Programador web, Sistemas Informáticos SL, Madrid</b></li>
+							<p>
+								Desarrollo de aplicaciones web para clientes de empresas del sector financiero utilizando Javascript, PHP<br>
+								Mantenimiento de aplicaciones web<br>
+								Maquetación HTML5, CSS3, Bootstrap<br>
+								Manejo de datos XML, JSON<br>
+							</p>								
+					</ol>
+				</div>
+<!--	apartado de formación, se ha utilizado un lista no-ordenada para los elementos que la componen				-->					
+				<div class="cuerpo__data__elemento formation">
+					<h2 class="formation__item form__title">FORMACIÓN</h2>
+					<ul class="formation__item form__list">
+						<li>2016 - 2019, Técnico en computación, escuela de oficios, UNC</li>
+						<li>2017 – Presente, Ingeniería de Computación, Facultad de Ciencias Exactas, Físicas y Naturales, UNC</li>
+					</ul>	
+				</div>
+<!--	apartado de idiomas				-->					
+				<div class="cuerpo__data__elemento Idiomas">
+					<img src="banderas.jpg" class="Idiomas__item" title="Idiomas">
+					<h2 class="Idiomas__item">IDIOMAS</h2>
+					<ul class="Idiomas__item">
+						<li><b>Español<i>(nativo)</i></b></li>
+						<li><b>Italiano<i>(b1)</i></b></li>
+						<li><b>Inglés<i>(b2)</i></b></li>
+					</ul>
+				</div>
+<!--	apartado de Lenguajes de programación				-->	
+				<div class="cuerpo__data__elemento datta">
+					<img src="lenguages.jpg" class="datta__item" title="Lenguajes de Programación">
+					<h2 class="datta__item">LENGUAJES</h2>
+					<ul class="datta__item">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>REACT</li>
+						<li>Python</li>
+					</ul>
+				</div>
+<!--	apartado de habilidades(skills)				-->	
+				<div class="cuerpo__data__elemento skills">
+					<img src="skills.jpg" class="skills__item" title="Hanilidades">
+					<h2 class="skills__item">HABILIDADES</h2>
+					<ul class="skills__item">
+						<li>Diseño de página web</li>
+						<li>Diseño de aplicaciones móviles</li>
+						<li>Imagen de marca</li>
+						<li>Diseño de logotipos</li>			
+					</ul>	
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
